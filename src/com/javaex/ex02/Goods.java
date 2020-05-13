@@ -4,5 +4,5 @@ public class Goods {
 
 	String name;
 	int price;
-	int i;
+	
 }
