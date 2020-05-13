@@ -2,8 +2,8 @@ package com.javaex.ex01;
 
 public class Goods {																		//			1. 	Goods 클래스 만들기
 	
-	String name;																					//			2.			main함수 스토리 쓰기
-	int price;																							//			2.			main함수 스토리 쓰기
+	String name;
+	int price;
 
 }
 
