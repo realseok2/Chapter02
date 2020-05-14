@@ -1,11 +1,11 @@
 package com.javaex.ex02;
 
-public class GoodsApp {
+public class Ex02_GoodsApp {
 
 	public static void main(String[] args) {
 
-		Goods homeCom = new Goods();
-		Goods homeDeco = new Goods();
+		Ex02_Goods homeCom = new Ex02_Goods();
+		Ex02_Goods homeDeco = new Ex02_Goods();
 
 		homeCom.name = "LG그램";
 		homeCom.price = 900000;
@@ -14,8 +14,8 @@ public class GoodsApp {
 		homeDeco.name = "머그컵";
 		homeDeco.price = 2000;
 
-		System.out.println("- 상품이름 : \"" + homeCom.name + "\", \t 가격 : " + homeCom.price);
-		System.out.println("- 상품이름 : \"" + homeDeco.name + "\", \t 가격 : " + homeDeco.price);
+		System.out.println("- 상품이름 : \"" + homeCom.name + "\", \t 가격 : " + homeCom.price + "원");
+		System.out.println("- 상품이름 : \"" + homeDeco.name + "\", \t\t 가격 : " + homeDeco.price + "원");
 
 //		Goods[] homeCom = new Goods[3];
 //		Goods[] homeDeco = new Goods[3];

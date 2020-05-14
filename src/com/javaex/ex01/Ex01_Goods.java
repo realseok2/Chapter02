@@ -1,6 +1,6 @@
 package com.javaex.ex01;
 
-public class Goods {																		//			1. 	Goods 클래스 만들기
+public class Ex01_Goods {																		//			1. 	Goods 클래스 만들기
 	
 	String name;
 	int price;
