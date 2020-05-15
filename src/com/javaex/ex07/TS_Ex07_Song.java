@@ -8,12 +8,16 @@ public class TS_Ex07_Song {
 	private String composer;
 	private int year;
 	private int track;
+	
 
-	// =================================================					artist getter, setter
+	// alt + shift + s -> genrate getter and setter ->select all 하면 getter setter 생성
+	
+
+	// ================================================= artist getter, setter
 	public void setArtist(String artist) {
 		this.artist = artist;
 	}
-	
+
 	public String getArtiste() {
 		return artist;
 	}
