@@ -22,9 +22,6 @@ public class TV {
 
 //===========================================
 	// 생성자
-	public TV() {
-	}
-
 	public TV(int channel, int volume, boolean power) {
 		this.channel = channel;
 		this.volume = volume;
@@ -106,9 +103,9 @@ public class TV {
 	// status
 	public void status() {
 		if (power == true) {
-			System.out.println("[ channel = " + channel + ",\t volume = " + volume + ",\t power = On  입니다. ]\n\n");
+			System.out.println("[ Channel = " + channel + ",\t Volume = " + volume + ",\t Power = On  입니다. ]\n\n");
 		} else {
-			System.out.println("[ channel = " + channel + ",\t volume = " + volume + ",\t power = Off  입니다. ]\n\n");
+			System.out.println("[ Channel = " + channel + ",\t Volume = " + volume + ",\t Power = Off  입니다. ]\n\n");
 		}
 	}
 
